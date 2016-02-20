@@ -1,0 +1,55 @@
+@-moz-viewport { width: device-width; scale: 1; }
+@-ms-viewport { width: device-width; scale: 1; }
+@-o-viewport { width: device-width; scale: 1; }
+@-webkit-viewport { width: device-width; scale: 1; }
+@viewport { width: device-width; scale: 1; }
+
+html {
+  box-sizing: border-box;
+  -moz-text-size-adjust: 100%;
+  -ms-text-size-adjust: 100%;
+  -webkit-text-size-adjust: 100%;
+  text-size-adjust: 100%;
+  overflow: hidden;
+  overflow-x: auto;
+  overflow-y: auto;
+  -webkit-overflow-scrolling: touch;
+}
+
+*, *:before, *:after {
+  box-sizing: inherit;
+}
+
+body{
+  font-family: sans-serif;
+  margin: 0;
+}
+
+.about-sec { 
+	display: none;
+	text-align: left;
+	margin-left: 3em;
+}
+
+.about-para { 
+ 	font-size: 14px;
+	color: $grey-4;
+}
+
+.about-header { 
+	color: $purple;
+	font-size: 16px;
+	text-transform: uppercase;
+}
+
+//tablet
+@media only screen and (min-width: 30em){
+	.about-sec { 
+	display: block;
+	}	
+} // @media query tablet
+
+//desktop
+@media only screen and (min-width: 60em){
+} 
+
