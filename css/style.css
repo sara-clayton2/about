@@ -41,7 +41,8 @@ body {
 .about-sec {
   display: none;
   text-align: left;
-  margin-left: 3em;
+  margin-left: 8em;
+  margin-right: 8em;
 }
 
 .about-para {
